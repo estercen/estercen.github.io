@@ -1,0 +1,272 @@
+html{
+	/*padding: 1vw 8vw 0vw 8vw;*/
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	margin:0;
+}
+header{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.7vw;
+	padding: 2vw 9vw 2.5vw 19vw;
+}
+h1{
+	margin:0vw;
+}
+h1 span{
+	opacity: 25%;
+}
+.higher{
+	display: grid;
+	grid-template-columns: 51% 49%;
+	margin: 0vw;
+}
+.low{
+	display: grid;
+	grid-template-columns: 100%;
+}
+nav{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1vw;
+	letter-spacing: -0.01em;
+}
+ul{
+    padding-left: 0px;
+    color: #c0c0c0;
+}
+ul li {
+display: inline-block;
+list-style-type: none;
+position: relative;
+padding-right: 1.3vw;
+padding-left: 1vw;
+border-right: solid 1px #000000;
+
+}
+ul li:last-child { 
+	border-right:none; ;
+}
+ul li a{
+	color: #000;
+	text-decoration: none;
+}
+ul li a:hover{
+	color: #f0f0f0;
+}
+ul li a:active{
+	color: #c0c0c0;
+}
+
+img {
+	width:100%;
+	/*padding-bottom: 0.6em;*/
+	/*gap:0.8em;*/
+	}
+/*img:hover {
+	filter: opacity(.5);
+	transition:all .5s ease-in-out;
+}*/
+
+
+
+/*--------- MAIN--------- */
+
+article{
+	padding: 0vw 8vw 3vw 8vw;
+}
+.imgmain{
+	padding-bottom: 4vw;
+}
+.textmain {
+	padding-top: 6vw;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+}
+.textmain p{
+	margin: 0vw 42vw 0vw 0vw;
+}
+p span{
+	font-weight: bold;
+	font-weight: 700;
+}
+.creditos p{
+	margin-top: 6vw;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+}
+
+}
+
+/*-----*/
+
+.videomain{
+	display: grid;
+	grid-template-columns: 100%;
+	/*padding: 2vw 40vw 2vw 40vw;*/
+	/*margin-bottom: 1vw;*/
+	/*margin-left: 10vw;*/
+	width: 80vw;
+	height: 45vw;
+}
+.videomain video{
+	width: 80vw;
+	height: 45vw;
+}
+
+.creditos{
+	margin-bottom: 1vw;
+}
+.creditos p a{
+	color: #000;
+}
+.creditos p a:hover{
+	color: #c0c0c0;
+}
+/*--------- CONTACTO--------- */
+
+
+
+h2{
+	margin-left: 8vw;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5vw;
+	padding: 6vw 12vw 0vw 0vw;
+	margin:0;
+}
+#contacto{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	padding-bottom:4.5vw;
+	/*margin-top: 0vh;*/
+
+}
+#contacto p{
+	padding: 0;
+	margin: 0;
+	font-size: 1.5vw;
+}
+#contacto .mail-phone p{
+	/*margin-left: 18vw;*/
+}
+#contacto .mail-phone p a{
+	color: #000;
+	text-decoration: none;
+}
+#contacto .mail-phone a:hover{
+	color: #c0c0c0;
+}
+#contacto .redes{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin-right: 8vw;
+}
+#contacto .redes img{
+	width: 50%;
+}
+
+/*--------- FOOTER -----------*/
+
+footer{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1vw;
+	text-align: center;
+	padding: 2.5em;
+}
+
+/* media querys*/
+
+@media screen and (max-width: 768px){
+	
+	header{
+	font-size: 2.5vw;
+	padding: 7vw 5vw 5.5vw 6vw;
+	}
+
+	.higher{
+	display: grid;
+	grid-template-columns: 59% 41%;
+	margin: 0vw;
+	}
+	.low{
+		letter-spacing: 0.03em;
+		grid-template-columns: 100%;
+	}
+	nav{
+	font-size: 2vw;
+	letter-spacing: -0.03em;
+	}
+	ul{
+		margin-top: 1.4vw;
+	}
+
+
+	/*----*/
+
+	.textmain {
+	grid-template-columns: 100%;
+	font-size: 3.8vw;
+	margin: 2vw 0vw 6vw 0vw;
+	}
+	.textmain p{
+		margin: 0;
+	}
+
+/*----*/
+
+.creditos p{
+	grid-template-columns: 95%;
+	font-size: 2vw;
+	padding-top: 4vw;
+}
+
+
+
+/*----*/
+
+
+	h2{
+	font-size: 2.5vw;
+	/*margin: 1vw;
+	padding: 1vw;*/
+	}
+
+	#contacto{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	padding:0;
+	/*margin-left: 1vw;*/
+	/*margin-top: 0vh;*/
+
+	}
+	#contacto p{
+	padding: 0;
+	margin: 0;
+	font-size: 2.5vw;
+	}
+	#contacto .mail-phone p{
+	/*margin-left: 1vw;*/
+	}
+	#contacto .redes{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin-right:2vw;
+	}
+	#contacto .redes img{
+	width: 60%;
+	}
+
+	/*--*/
+	footer{
+	font-size: 2vw;
+	}
+}

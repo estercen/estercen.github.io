@@ -1,0 +1,208 @@
+html{
+	/*padding: 1vw 8vw 0vw 8vw;*/
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	margin:0;
+}
+a{
+	color: #c0c0c0;
+	text-decoration: none;
+}
+a:hover{
+	opacity: 0.5;
+}
+header{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.7vw;
+	padding: 2vw 9vw 2.5vw 19vw;
+}
+h1{
+	margin:0vw;
+}
+h1 span{
+	opacity: 25%;
+}
+.higher{
+	display: grid;
+	grid-template-columns: 51% 49%;
+	margin: 0vw;
+}
+.low{
+	display: grid;
+	grid-template-columns: 100%;
+}
+nav{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1vw;
+	letter-spacing: -0.01em;
+}
+ul{
+    padding-left: 0px;
+    color: #c0c0c0;
+}
+ul li {
+display: inline-block;
+list-style-type: none;
+position: relative;
+padding-right: 1.3vw;
+padding-left: 1vw;
+border-right: solid 1px #000000;
+
+}
+ul li:last-child { 
+	border-right:none; ;
+}
+ul li a{
+	color: #000;
+	text-decoration: none;
+}
+ul li a:hover{
+	color: #f0f0f0;
+}
+ul li a:active{
+	color: #c0c0c0;
+}
+
+
+img {
+	width:100%;
+	/*padding-bottom: 0.6em;*/
+	/*gap:0.8em;*/
+	}
+img:hover {
+	filter: opacity(.5);
+	transition:all .5s ease-in-out;
+}
+
+.tools{
+	display: grid;
+	grid-template-columns: 85% 15%;
+	padding: 0vw 27vw 0vw 0vw;
+}
+
+footer{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1vw;
+	text-align: center;
+	padding: 2.5em;
+}
+
+.sobre_mi{
+	background-color: #000;
+}
+.sobre_mi p{
+	color: #c0c0c0;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.8vw;
+	padding: 12vw 26vw 10vw 23vw;
+	margin:0;
+}
+#contacto{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	padding: 2vw 13vw 8vw 4vw;
+	margin-top: 5vh;
+
+}
+#contacto p{
+	padding: 0;
+	margin: 0;
+	font-size: 1.5vw;
+}
+#contacto .mail-phone p{
+	margin-left: 19vw;
+}
+#contacto .redes{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin-right: 12vw;
+}
+#contacto .redes img{
+	width: 60%;
+}
+
+
+
+
+/* media querys*/
+
+@media screen and (max-width: 768px){
+	
+	header{
+	font-size: 2.5vw;
+	padding: 7vw 5vw 5.5vw 6vw;
+	}
+
+	.higher{
+	display: grid;
+	grid-template-columns: 59% 41%;
+	margin: 0vw;
+	}
+	.low{
+		letter-spacing: 0.03em;
+		grid-template-columns: 100%;
+	}
+	nav{
+	font-size: 2vw;
+	letter-spacing: -0.03em;
+	}
+	ul{
+		margin-top: 1.4vw;
+	}
+
+	/*---*/
+
+	.sobre_mi{
+	padding-bottom: 10vw;
+	}
+	.sobre_mi p{
+	padding: 18vw 8vw 16vw 8vw;	
+	font-size: 4vw;
+	}
+
+	/*.tools{
+	display: grid;
+	grid-template-columns: 75% 25%;
+	padding: 8vw 8vw 0vw 0vw;
+}*/
+
+	/*---*/
+
+	#contacto{
+	display: grid;
+	grid-template-columns: 66% 34%;
+	padding:0;
+	/*margin-left: 1vw;*/
+	margin-bottom: 4vh;
+
+	}
+	#contacto p{
+	padding: 0;
+	margin: 0;
+	font-size: 2.5vw;
+	}
+	#contacto .mail-phone p{
+	margin: 0vw 8vw 0vw 8vw;
+	}
+	#contacto .redes{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin-right:2vw;
+	}
+	#contacto .redes img{
+	width: 60%;
+	}
+
+	/*--*/
+	footer{
+	font-size: 2vw;
+	}
